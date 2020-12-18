@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Chapter 1/airprog"/>
+	<classpathentry kind="src" path="Chapter 1/combo"/>
+	<classpathentry kind="src" path="Chapter 1/barn1"/>
+	<classpathentry kind="src" path="Chapter 1/dualpal"/>
+	<classpathentry kind="src" path="Chapter 1/friday"/>
+	<classpathentry kind="src" path="Chapter 1/sprime"/>
+	<classpathentry kind="src" path="Chapter 1/gift1"/>
+	<classpathentry kind="src" path="Chapter 1/milk3"/>
+	<classpathentry kind="src" path="Chapter 1/ride"/>
+	<classpathentry kind="src" path="Chapter 1/pprime"/>
+	<classpathentry kind="src" path="Chapter 1/milk"/>
+	<classpathentry kind="src" path="Chapter 1/namenum"/>
+	<classpathentry kind="src" path="Chapter 1/numtri"/>
+	<classpathentry kind="src" path="Chapter 1/test"/>
+	<classpathentry kind="src" path="Chapter 1/palsquare"/>
+	<classpathentry kind="src" path="Chapter 1/crypt1"/>
+	<classpathentry kind="src" path="Chapter 1/wormhole"/>
+	<classpathentry kind="src" path="Chapter 1/skidesign"/>
+	<classpathentry kind="src" path="Chapter 1/milk2"/>
+	<classpathentry kind="src" path="Chapter 1/transform"/>
 	<classpathentry kind="src" path="Chapter 1/beads"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
