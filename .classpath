@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="Chapter 2/castle"/>
 	<classpathentry kind="src" path="Chapter 1/combo"/>
 	<classpathentry kind="src" path="Chapter 1/airprog"/>
 	<classpathentry kind="src" path="Chapter 1/barn1"/>
