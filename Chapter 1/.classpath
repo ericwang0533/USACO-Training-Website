@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="airprog"/>
+	<classpathentry kind="src" path="barn1"/>
+	<classpathentry kind="src" path="beads"/>
+	<classpathentry kind="src" path="combo"/>
+	<classpathentry kind="src" path="crypt1"/>
+	<classpathentry kind="src" path="dualpal"/>
+	<classpathentry kind="src" path="friday"/>
+	<classpathentry kind="src" path="gift1"/>
+	<classpathentry kind="src" path="milk"/>
+	<classpathentry kind="src" path="milk2"/>
+	<classpathentry kind="src" path="milk3"/>
+	<classpathentry kind="src" path="namenum"/>
+	<classpathentry kind="src" path="numtri"/>
+	<classpathentry kind="src" path="palsquare"/>
+	<classpathentry kind="src" path="pprime"/>
+	<classpathentry kind="src" path="ride"/>
+	<classpathentry kind="src" path="skidesign"/>
+	<classpathentry kind="src" path="sprime"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="transform"/>
+	<classpathentry kind="src" path="wormhole"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
