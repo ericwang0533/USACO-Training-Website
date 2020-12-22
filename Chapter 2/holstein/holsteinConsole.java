@@ -7,7 +7,7 @@ TASK: holstein
 */
 import java.util.*;
 import java.io.*;
-public class holstein {
+public class holsteinConsole {
 	public static FastReader in = new FastReader();
 	public static int vits = in.nextInt();
 	public static int[] reqs = new int[vits];
@@ -18,41 +18,40 @@ public class holstein {
 	public static PrintWriter out;
 	
 	public static void main(String[] args) throws IOException{
-		out = new PrintWriter(new BufferedWriter(new FileWriter("holstein.out")));
+		out = new PrintWriter(System.out);
 		
 		input();
 		
 		
 		
 		for(int i = 0; i < feds; i++) {
-			//System.out.println("i: " + i);
+			System.out.println("i: " + i);
 			ArrayList<Integer> track1 = new ArrayList<Integer>();
 			solve(i, reqs, 0, track1);
 		}
 		
-		//System.out.println("ansLenans: " + ansLen);
+		System.out.println("ansLenans: " + ansLen);
 		//System.out.println(ansTrack.size());
-		out.print(ansLen);
+		out.print(ansLen + " ");
 		for(int i = 0; i < ansTrack.size(); i++) {
-			//System.out.println(ansTrack.get(i)+1);
-			out.print(" " + (ansTrack.get(i) + 1));
+			System.out.println(ansTrack.get(i)+1);
+			out.print(ansTrack.get(i) + 1  + " ");
 		}
-		out.println();
 		//out.println("test");
 		out.close();
 	}
 	
 	public static void solve(int num, int[] temp, int size, ArrayList<Integer> track) {
-//		System.out.println(num + " " + size);
-//		for(int i = 0; i < track.size(); i++) {
-//			System.out.println("track: " + (track.get(i) + 1));
-//		}
+		System.out.println(num + " " + size);
+		for(int i = 0; i < track.size(); i++) {
+			System.out.println("track: " + (track.get(i) + 1));
+		}
 		
 		if(enough(temp)) {
-//			System.out.println("enough is corrected");
+			System.out.println("enough is corrected");
 			if(size < ansLen) {
 				ansLen = size;
-//				System.out.println("ansLen inside first if: " + ansLen);
+				System.out.println("ansLen inside first if: " + ansLen);
 				Collections.sort(track);
 				ansTrack = (ArrayList<Integer>) track.clone();
 			}
@@ -69,10 +68,10 @@ public class holstein {
 					}
 				}
 			}
-//			System.out.println("ansLen: " + ansLen);
-//			for(int i = 0; i < ansTrack.size(); i++) {
-//				System.out.println("ansTrack: " + (ansTrack.get(i)+1));
-//			}
+			System.out.println("ansLen: " + ansLen);
+			for(int i = 0; i < ansTrack.size(); i++) {
+				System.out.println("ansTrack: " + (ansTrack.get(i)+1));
+			}
 			return;
 		}
 		
@@ -96,9 +95,9 @@ public class holstein {
 	}
 	
 	public static boolean enough(int[] temp) {
-//		for(int i = 0; i < vits; i++) {
-//			System.out.println(temp[i]);
-//		}
+		for(int i = 0; i < vits; i++) {
+			System.out.println(temp[i]);
+		}
 		for(int a = 0; a < vits; a++) {
 			// check if enough vitamins
 			if(temp[a] > 0) {
@@ -129,12 +128,7 @@ public class holstein {
 		BufferedReader br;
 		StringTokenizer st;
 		public FastReader() {
-			try {
-				br = new BufferedReader(new FileReader("holstein.in"));
-			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			br = new BufferedReader(new InputStreamReader(System.in));//new FileReader("holstein.in"));
 		}
 		String next() {
 			while(st == null || !st.hasMoreElements()) {
