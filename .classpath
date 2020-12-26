@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Chapter 2/castle"/>
+	<classpathentry kind="src" path="Chapter 2/prefix"/>
 	<classpathentry kind="src" path="Chapter 2/subset"/>
 	<classpathentry kind="src" path="Chapter 2/preface"/>
 	<classpathentry kind="src" path="Chapter 2/hamming"/>
@@ -8,6 +9,7 @@
 	<classpathentry kind="src" path="Chapter 2/sort3"/>
 	<classpathentry kind="src" path="Chapter 2/frac1"/>
 	<classpathentry kind="src" path="Chapter 2/runround"/>
+	<classpathentry kind="src" path="Chapter 2/lamps"/>
 	<classpathentry kind="src" path="Chapter 1/combo"/>
 	<classpathentry kind="src" path="Chapter 1/airprog"/>
 	<classpathentry kind="src" path="Chapter 1/barn1"/>
