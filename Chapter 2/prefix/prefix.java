@@ -9,8 +9,10 @@ import java.util.*;
 import java.io.*;
 public class prefix {
 	public static FastReader in = new FastReader();
-	public static String[] prefixes;
+//	public static String[] prefixes;
+	public static ArrayList<String> prefixes = new ArrayList<String>();
 	public static String sequence = "";
+	public static StringBuilder sequence1 = new StringBuilder();
 	public static int ans = 0;
 	public static PrintWriter out;
 	public static boolean[] visited;
@@ -50,13 +52,23 @@ public class prefix {
 //			visited[index] = true;
 //		}
 		
-		for(int i = 0; i < prefixes.length; i++) {
-			if(sequence.startsWith(prefixes[i], index)) {
-				if(visited[index+prefixes[i].length()]) {
+//		for(int i = 0; i < prefixes.length; i++) {
+//			if(sequence.startsWith(prefixes[i], index)) {
+//				if(visited[index+prefixes[i].length()]) {
+//					continue;
+//				}
+//				visited[index+prefixes[i].length()] = true;
+//				toVisit.add(index+prefixes[i].length());
+//				//solve(index+prefixes[i].length());
+//			}
+//		}
+		for(int i = 0; i < prefixes.size(); i++) {
+			if(sequence.startsWith(prefixes.get(i), index)) {
+				if(visited[index+prefixes.get(i).length()]) {
 					continue;
 				}
-				visited[index+prefixes[i].length()] = true;
-				toVisit.add(index+prefixes[i].length());
+				visited[index+prefixes.get(i).length()] = true;
+				toVisit.add(index+prefixes.get(i).length());
 				//solve(index+prefixes[i].length());
 			}
 		}
@@ -66,14 +78,19 @@ public class prefix {
 	public static void input() {
 //		System.out.println("test");
 		// TODO Auto-generated method stub
-		String temp = "";
+//		String temp = "";
 		String line;// = in.nextLine();
-		while((line = in.nextLine()).length() != 1) {
-			//System.out.println(line);
-			temp += line + " "; //.split(" ");
-			//line = in.nextLine();
+//		while((line = in.nextLine()).length() != 1) {
+//			//System.out.println(line);
+//			temp += line + " "; //.split(" ");
+//			//line = in.nextLine();
+//		}
+//		prefixes = temp.split(" ");
+		
+		while(!(line = in.next()).equals(".")) {
+			prefixes.add(line);
 		}
-		prefixes = temp.split(" ");
+		
 		//Arrays.sort(prefixes);
 		
 		//String line1 = br.readLine();
@@ -83,9 +100,10 @@ public class prefix {
 		//StringTokenizer st = new StringTokenizer(br.readLine());
 		while((line = in.nextLine()) != null) {
 			
-			sequence += line;
+			sequence1.append(line);
 //			System.out.println(sequence);
 		}
+		sequence = sequence1.toString();
 		visited = new boolean[sequence.length()+1];
 //		System.out.println("test");
 //		for(int i = 0; i < prefixes.length; i++) {
