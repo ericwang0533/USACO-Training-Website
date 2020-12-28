@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Chapter 2/castle"/>
+	<classpathentry kind="src" path="Chapter 2/concom"/>
 	<classpathentry kind="src" path="Chapter 2/money"/>
 	<classpathentry kind="src" path="Chapter 2/zerosum"/>
 	<classpathentry kind="src" path="Chapter 2/nocows"/>
