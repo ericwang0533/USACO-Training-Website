@@ -7,7 +7,7 @@ TASK: castle
 */
 import java.util.*;
 import java.io.*;
-public class castle {
+public class castle3 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	public static int m = in.nextInt();
