@@ -7,7 +7,7 @@ TASK: frac1
 */
 import java.util.*;
 import java.io.*;
-public class frac1 {
+public class frac12 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	//public static int counter = 0;
