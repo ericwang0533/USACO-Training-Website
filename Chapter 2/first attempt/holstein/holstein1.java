@@ -7,7 +7,7 @@ TASK: holstein
 */
 import java.util.*;
 import java.io.*;
-public class holstein {
+public class holstein1 {
 	public static FastReader in = new FastReader();
 	public static int vits = in.nextInt();
 	public static int[] reqs = new int[vits];

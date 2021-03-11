@@ -7,7 +7,7 @@ TASK: sort3
 */
 import java.util.*;
 import java.io.*;
-public class sort3 {
+public class sort32 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	public static int[] maxes = new int[3+1]; //1 based :D
