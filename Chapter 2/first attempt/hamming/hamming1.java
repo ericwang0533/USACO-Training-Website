@@ -7,7 +7,7 @@ TASK: hamming
 */
 import java.util.*;
 import java.io.*;
-public class hamming {
+public class hamming1 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt(), b = in.nextInt(), d = in.nextInt();
 	public static ArrayList<Integer> ans = new ArrayList<Integer>(Arrays.asList(0));
