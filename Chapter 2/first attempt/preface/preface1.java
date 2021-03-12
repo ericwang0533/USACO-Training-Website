@@ -7,7 +7,7 @@ TASK: preface
 */
 import java.util.*;
 import java.io.*;
-public class preface {
+public class preface1 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	public static int [] ans = new int[7]; //i, v, x, l, c, d, m  = 0;
