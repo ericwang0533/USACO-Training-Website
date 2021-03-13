@@ -7,7 +7,7 @@ TASK: subset
 */
 import java.util.*;
 import java.io.*;
-public class subset {
+public class subset1 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	public static int ans = 0;
