@@ -7,7 +7,7 @@ TASK: lamps
 */
 import java.util.*;
 import java.io.*;
-public class lamps {
+public class lamps1 {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt(), c = in.nextInt();
 	public static ArrayList<Integer> on = new ArrayList<Integer>(), off = new ArrayList<Integer>();

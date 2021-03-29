@@ -7,7 +7,7 @@ TASK: runround
 */
 import java.util.*;
 import java.io.*;
-public class runround {
+public class runround1 {
 	public static FastReader in = new FastReader();
 	public static long n = in.nextLong(), ans = 0;
 	public static PrintWriter out;
