@@ -7,7 +7,7 @@ TASK: prefix
 */
 import java.util.*;
 import java.io.*;
-public class prefix {
+public class prefix1 {
 	public static FastReader in = new FastReader();
 //	public static String[] prefixes;
 	public static ArrayList<String> prefixes = new ArrayList<String>();
