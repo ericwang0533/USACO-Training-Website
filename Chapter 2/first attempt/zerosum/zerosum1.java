@@ -7,7 +7,7 @@ TASK: zerosum
 */
 import java.util.*;
 import java.io.*;
-public class zerosum {
+public class zerosum1 {
 	public static BufferedReader br;
 	public static StringTokenizer st;
 	public static FastReader in = new FastReader();
