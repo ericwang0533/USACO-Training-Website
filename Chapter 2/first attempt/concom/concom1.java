@@ -191,7 +191,7 @@ import java.io.*;
 //	}
 //}
 
-public class concom {
+public class concom1 {
     public static int max = 100;
     public static int[][] owns = new int[max + 1][max + 1];
     public static boolean[][] controls = new boolean[max + 1][max + 1];
